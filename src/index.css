@@ -1,0 +1,7 @@
+@import "tailwindcss";
+@plugin "daisyui";
+@layer components {
+  .container {
+    @apply mx-auto w-full max-w-[1200px] px-5;
+  }
+}
