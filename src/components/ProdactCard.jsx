@@ -1,5 +1,5 @@
 import Button from "./Button";
-function ProdactCard({ product }) {
+function ProdactCard({ product, onAddToCart }) {
   const {
     name,
     category,
@@ -62,7 +62,11 @@ function ProdactCard({ product }) {
         </div>
 
         <div className="card-actions mt-4">
-          <Button text={"Buy"} variant="accent" />
+          <Button
+            text={"Buy"}
+            variant="accent"
+            onClick={() => onAddToCart(product)}
+          />
         </div>
       </div>
     </div>

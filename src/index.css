@@ -1,5 +1,9 @@
 @import "tailwindcss";
 @plugin "daisyui";
+
+@theme {
+  --daisyui-themes: light, dark, cupcake, sunset, night;
+}
 @layer components {
   .container {
     @apply mx-auto w-full max-w-[1200px] px-5;

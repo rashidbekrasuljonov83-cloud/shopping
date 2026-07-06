@@ -1,7 +1,7 @@
 import React from "react";
 import { products } from "../data/product";
 import { v4 as uuidv4 } from "uuid";
-function Dropdowin() {
+function Dropdowin({ setSelectedCategory }) {
   let arr = [...new Set(products.map((item) => item.category))];
 
   return (
@@ -13,10 +13,17 @@ function Dropdowin() {
         tabIndex="-1"
         className="dropdown-content menu bg-base-100 rounded-box z-1 w-52 p-2 shadow-sm"
       >
+        <li key={uuidv4()}>
+          <a type="button" onClick={() => setSelectedCategory("All")}>
+            All
+          </a>
+        </li>
         {arr.map((item) => {
           return (
             <li key={uuidv4()}>
-              <a>{item}</a>
+              <a type="button" onClick={() => setSelectedCategory(item)}>
+                {item}
+              </a>
             </li>
           );
         })}

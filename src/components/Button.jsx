@@ -1,11 +1,15 @@
 import React from "react";
 
-function Button({ text, onclick, variant }) {
+function Button({ text, onClick, variant }) {
   let variants = {
     neutral: "btn btn-neutral",
     accent: " btn btn-accent",
   };
-  return <button className={`${variants[variant]} btn w-full`}>{text}</button>;
+  return (
+    <button className={`${variants[variant]} btn w-full`} onClick={onClick}>
+      {text}
+    </button>
+  );
 }
 
 export default Button;

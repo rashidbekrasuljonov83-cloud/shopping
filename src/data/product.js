@@ -13,7 +13,8 @@ export const products = [
     memory: "256GB",
     warranty: "12 oy",
     status: "Mavjud",
-    image: "https://picsum.photos/400/400?random=1",
+    image:
+      "https://images.unsplash.com/photo-1695048133142-1a20484d2569?q=80&w=600&auto=format&fit=crop",
     description:
       "Apple iPhone 15 Pro A17 Pro chipi, kuchli kamera va premium titanium korpus bilan jihozlangan.",
   },
@@ -31,7 +32,8 @@ export const products = [
     memory: "512GB",
     warranty: "12 oy",
     status: "Mavjud",
-    image: "https://picsum.photos/400/400?random=2",
+    image:
+      "https://images.unsplash.com/photo-1610945265064-0e34e5519bbf?q=80&w=600&auto=format&fit=crop",
     description:
       "Galaxy AI funksiyalari, 200MP kamera va Snapdragon protsessori bilan.",
   },
@@ -49,7 +51,8 @@ export const products = [
     memory: "512GB SSD",
     warranty: "12 oy",
     status: "Mavjud",
-    image: "https://picsum.photos/400/400?random=3",
+    image:
+      "https://images.unsplash.com/photo-1517336714731-489689fd1ca8?q=80&w=600&auto=format&fit=crop",
     description: "M3 chip, 16GB RAM va 13.6 dyuym Liquid Retina displey.",
   },
   {
@@ -66,7 +69,8 @@ export const products = [
     memory: "1TB SSD",
     warranty: "24 oy",
     status: "Mavjud",
-    image: "https://picsum.photos/400/400?random=4",
+    image:
+      "https://images.unsplash.com/photo-1593642632823-8f785ba67e45?q=80&w=600&auto=format&fit=crop",
     description: "Intel Core Ultra, OLED ekran va premium alyuminiy korpus.",
   },
   {
@@ -82,7 +86,8 @@ export const products = [
     color: "White",
     warranty: "12 oy",
     status: "Mavjud",
-    image: "https://picsum.photos/400/400?random=5",
+    image:
+      "https://images.unsplash.com/photo-1600294037681-c80b4cb5b434?q=80&w=600&auto=format&fit=crop",
     description:
       "Active Noise Cancellation va Spatial Audio qo'llab-quvvatlaydi.",
   },
@@ -99,7 +104,8 @@ export const products = [
     color: "Midnight",
     warranty: "12 oy",
     status: "Mavjud",
-    image: "https://picsum.photos/400/400?random=6",
+    image:
+      "https://images.unsplash.com/photo-1508685096489-7aacd43bd3b1?q=80&w=600&auto=format&fit=crop",
     description: "Yurak urishini kuzatish, GPS va Always-On Retina displey.",
   },
   {
@@ -115,7 +121,8 @@ export const products = [
     color: "Black",
     warranty: "24 oy",
     status: "Mavjud",
-    image: "https://picsum.photos/400/400?random=7",
+    image:
+      "https://images.unsplash.com/photo-1615663245857-ac93bb7c39e7?q=80&w=600&auto=format&fit=crop",
     description: "Gaming uchun yuqori aniqlikdagi optik sensor.",
   },
   {
@@ -132,7 +139,8 @@ export const products = [
     memory: "256GB",
     warranty: "12 oy",
     status: "Mavjud",
-    image: "https://picsum.photos/400/400?random=8",
+    image:
+      "https://images.unsplash.com/photo-1598327105666-5b89351aff97?q=80&w=600&auto=format&fit=crop",
     description: "120Hz AMOLED ekran va 200MP kamera.",
   },
   {
@@ -149,7 +157,8 @@ export const products = [
     memory: "512GB SSD",
     warranty: "24 oy",
     status: "Mavjud",
-    image: "https://picsum.photos/400/400?random=9",
+    image:
+      "https://images.unsplash.com/photo-1588872657578-7efd1f1555ed?q=80&w=600&auto=format&fit=crop",
     description: "Intel Core i7, 16GB RAM va Full HD ekran.",
   },
   {
@@ -165,8 +174,202 @@ export const products = [
     color: "Black",
     warranty: "12 oy",
     status: "Mavjud",
-    image: "https://picsum.photos/400/400?random=10",
+    image:
+      "https://images.unsplash.com/photo-1618384887929-16ec33fab9ef?q=80&w=600&auto=format&fit=crop",
     description:
       "Premium simsiz quloqchin, eng yaxshi shovqinni bekor qilish texnologiyasi.",
   },
+  {
+    id: 11,
+    name: "iPhone 15 Pro",
+    category: "Telefon",
+    brand: "Apple",
+    price: 15000000,
+    discount: 10,
+    quantity: 25,
+    rating: 4.9,
+    reviews: 320,
+    color: "Titanium",
+    memory: "256GB",
+    warranty: "12 oy",
+    status: "Mavjud",
+    image:
+      "https://images.unsplash.com/photo-1510557880182-3d4d3cba35a5?q=80&w=600&auto=format&fit=crop",
+    description:
+      "Apple iPhone 15 Pro A17 Pro chipi, kuchli kamera va premium titanium korpus bilan jihozlangan.",
+  },
+  ,
+  {
+    id: 12,
+    name: "Samsung Galaxy S24 Ultra",
+    category: "Telefon",
+    brand: "Samsung",
+    price: 14500000,
+    discount: 12,
+    quantity: 18,
+    rating: 4.8,
+    reviews: 275,
+    color: "Titanium Black",
+    memory: "512GB",
+    warranty: "12 oy",
+    status: "Mavjud",
+    image:
+      "https://images.unsplash.com/photo-1573148195900-7845dcb9b127?q=80&w=600&auto=format&fit=crop",
+    description:
+      "Galaxy S24 Ultra o'rnatilgan S Pen va 200 MP ultra-kamera tizimiga ega smartfon.",
+  },
+  {
+    id: 13,
+    name: "MacBook Air M3",
+    category: "Noutbuk",
+    brand: "Apple",
+    price: 19000000,
+    discount: 8,
+    quantity: 12,
+    rating: 4.9,
+    reviews: 198,
+    color: "Space Gray",
+    memory: "16GB / 512GB",
+    warranty: "12 oy",
+    status: "Mavjud",
+    image:
+      "https://images.unsplash.com/photo-1611186871348-b1ce696e52c9?q=80&w=600&auto=format&fit=crop",
+    description:
+      "Yangi M3 chipiga ega, nihoyatda ingichka va batareyasi bir kunga to'liq yetadigan noutbuk.",
+  },
+  {
+    id: 14,
+    name: "Dell XPS 13",
+    category: "Noutbuk",
+    brand: "Dell",
+    price: 17500000,
+    discount: 15,
+    quantity: 9,
+    rating: 4.7,
+    reviews: 145,
+    color: "Platinum",
+    memory: "16GB / 1TB",
+    warranty: "12 oy",
+    status: "Mavjud",
+    image:
+      "https://images.unsplash.com/photo-1603302576837-37561b2e2302?q=80&w=600&auto=format&fit=crop",
+    description:
+      "Premium dizayn, InfinityEdge ekrani va yuqori unumdorlikka ega Windows noutbuki.",
+  },
+  {
+    id: 15,
+    name: "AirPods Pro 2",
+    category: "Quloqchin",
+    brand: "Apple",
+    price: 3200000,
+    discount: 5,
+    quantity: 40,
+    rating: 4.9,
+    reviews: 512,
+    color: "White",
+    memory: "Yo'q",
+    warranty: "6 oy",
+    status: "Mavjud",
+    image:
+      "https://images.unsplash.com/photo-1588444837495-c6cfeb53f32d?q=80&w=600&auto=format&fit=crop",
+    description:
+      "Faol shovqinni bekor qilish (ANC) va mukammal fazoviy ovoz tizimiga ega simsiz quloqchin.",
+  },
+  {
+    id: 16,
+    name: "Sony WH-1000XM5",
+    category: "Quloqchin",
+    brand: "Sony",
+    price: 5200000,
+    discount: 10,
+    quantity: 15,
+    rating: 4.8,
+    reviews: 420,
+    color: "Black",
+    memory: "Yo'q",
+    warranty: "12 oy",
+    status: "Mavjud",
+    image:
+      "https://images.unsplash.com/photo-1546435770-a3e426bf472b?q=80&w=600&auto=format&fit=crop",
+    description:
+      "Bozordagi eng eng kuchli shovqin bostirish texnologiyasiga ega premium quloqchin.",
+  },
+  {
+    id: 17,
+    name: "Apple Watch Series 9",
+    category: "Smart soat",
+    brand: "Apple",
+    price: 5800000,
+    discount: 7,
+    quantity: 22,
+    rating: 4.8,
+    reviews: 180,
+    color: "Midnight",
+    memory: "64GB",
+    warranty: "12 oy",
+    status: "Mavjud",
+    image:
+      "https://images.unsplash.com/photo-1434494878577-86c23bcb06b9?q=80&w=600&auto=format&fit=crop",
+    description:
+      "Yangi S9 chipi va ekranga tegmasdan boshqarish (Double Tap) funksiyasiga ega soat.",
+  },
+  {
+    id: 18,
+    name: "Samsung Galaxy Watch 6",
+    category: "Smart soat",
+    brand: "Samsung",
+    price: 3900000,
+    discount: 11,
+    quantity: 30,
+    rating: 4.6,
+    reviews: 210,
+    color: "Silver",
+    memory: "16GB",
+    warranty: "12 oy",
+    status: "Mavjud",
+    image:
+      "https://images.unsplash.com/photo-1579586337278-3befd40fd17a?q=80&w=600&auto=format&fit=crop",
+    description:
+      "Kengaytirilgan uyqu tahlili va tana tuzilishini o'lchash sensorlariga ega aqlli soat.",
+  },
+  {
+    id: 20,
+    id: 19,
+    name: "Logitech MX Master 3S",
+    category: "Sichqoncha",
+    brand: "Logitech",
+    price: 1500000,
+    discount: 0,
+    quantity: 35,
+    rating: 4.9,
+    reviews: 640,
+    color: "Graphite",
+    memory: "Yo'q",
+    warranty: "12 oy",
+    status: "Mavjud",
+    image:
+      "https://images.unsplash.com/photo-1625492922105-5914617fd869?q=80&w=600&auto=format&fit=crop",
+    description:
+      "Dasturchilar va dizaynerlar uchun eng qulay, shovqinsiz va ergonomik simsiz sichqoncha.",
+  },
+  {
+    id: 20,
+    name: "Razer DeathAdder V3 Pro",
+    category: "Sichqoncha",
+    brand: "Razer",
+    price: 2100000,
+    discount: 15,
+    quantity: 14,
+    rating: 4.7,
+    reviews: 155,
+    color: "White",
+    memory: "Yo'q",
+    warranty: "12 oy",
+    status: "Mavjud",
+    image:
+      "https://images.unsplash.com/photo-1615663245857-ac93bb7c39e7?q=80&w=600&auto=format&fit=crop",
+    description:
+      "Geymerlar uchun o'ta yengil (63g) va yuqori aniqlikdagi optik sensorli sichqoncha.",
+  },
+  ,
 ];
