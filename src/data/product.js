@@ -353,22 +353,7 @@ export const products = [
       "Dasturchilar va dizaynerlar uchun eng qulay, shovqinsiz va ergonomik simsiz sichqoncha.",
   },
   {
-    id: 20,
-    name: "Razer DeathAdder V3 Pro",
-    category: "Sichqoncha",
-    brand: "Razer",
-    price: 2100000,
-    discount: 15,
-    quantity: 14,
-    rating: 4.7,
-    reviews: 155,
-    color: "White",
-    memory: "Yo'q",
-    warranty: "12 oy",
-    status: "Mavjud",
-    image:
-      "https://images.unsplash.com/photo-1615663245857-ac93bb7c39e7?q=80&w=600&auto=format&fit=crop",
-    description:
+  
       "Geymerlar uchun o'ta yengil (63g) va yuqori aniqlikdagi optik sensorli sichqoncha.",
   },
   ,
