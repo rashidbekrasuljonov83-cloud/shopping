@@ -4,7 +4,7 @@ function Navbar({ totalItems, onCartClick }) {
   return (
     <div className="navbar bg-base-100 shadow-sm px-6">
       <div className="flex-1">
-        <a className="btn btn-ghost text-xl">daisyUI</a>
+        <a className="btn btn-ghost text-xl">Shopping</a>
       </div>
       <div className="flex-none gap-2">
         <div
