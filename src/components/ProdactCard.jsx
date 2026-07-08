@@ -1,6 +1,10 @@
+import React from "react";
+import { Link } from "react-router-dom";
 import Button from "./Button";
+
 function ProdactCard({ product, onAddToCart }) {
   const {
+    id,
     name,
     category,
     brand,
@@ -17,9 +21,15 @@ function ProdactCard({ product, onAddToCart }) {
 
   return (
     <div className="card bg-base-100 shadow-xl hover:shadow-2xl duration-300">
-      <figure className="h-60 bg-base-200">
-        <img src={image} alt={name} className="h-full w-full object-cover" />
-      </figure>
+      <Link to={`/product/${id}`} className="cursor-pointer group">
+        <figure className="h-60 bg-base-200 overflow-hidden">
+          <img
+            src={image}
+            alt={name}
+            className="h-full w-full object-cover group-hover:scale-105 duration-300"
+          />
+        </figure>
+      </Link>
 
       <div className="card-body">
         <div className="flex items-center justify-between">
@@ -34,7 +44,11 @@ function ProdactCard({ product, onAddToCart }) {
           </span>
         </div>
 
-        <h2 className="card-title">{name}</h2>
+        <Link to={`/product/${id}`}>
+          <h2 className="card-title hover:text-primary transition-colors cursor-pointer">
+            {name}
+          </h2>
+        </Link>
 
         <p className="text-sm opacity-70">{brand}</p>
 

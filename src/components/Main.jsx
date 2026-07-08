@@ -36,7 +36,7 @@ function Main() {
   const totalItems = cart.reduce((sum, item) => sum + item.amount, 0);
 
   return (
-    <main>
+    <>
       <Navbar totalItems={totalItems} onCartClick={() => setIsCartOpen(true)} />
 
       <FilterSearch
@@ -50,7 +50,7 @@ function Main() {
       {isCartOpen && (
         <CartModal cart={cart} onClose={() => setIsCartOpen(false)} />
       )}
-    </main>
+    </>
   );
 }
 

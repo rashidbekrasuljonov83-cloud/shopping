@@ -6,7 +6,10 @@ function Button({ text, onClick, variant }) {
     accent: " btn btn-accent",
   };
   return (
-    <button className={`${variants[variant]} btn w-full`} onClick={onClick}>
+    <button
+      className={`${variants[variant]} btn btn-primary w-full sm:w-11-auto px-6`}
+      onClick={onClick}
+    >
       {text}
     </button>
   );
